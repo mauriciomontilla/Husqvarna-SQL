@@ -86,7 +86,7 @@ Group by
 	wy.wyspno, 
 	gq.gqqys - gq.gqqpi, 
 	gq.gqqyp,
-  Pos."Qty. Invoiced",
+	Pos."Qty. Invoiced",
 	Pos."W. Req",
 	Pos."W. Prom",
 	gq.gqqopn
@@ -154,7 +154,7 @@ Group by
 	wy.wyspno, 
 	gq.gqqys - gq.gqqpi, 
 	gq.gqqyp,
-  Pos."Qty. Invoiced",
+	Pos."Qty. Invoiced",
 	Pos."W. Req",
 	Pos."W. Prom",
 	gq.gqqopn
@@ -175,7 +175,7 @@ Select
 	sum( g1.g1netw * wy.wyqtd ) as "Weight Bos" ,
 	max( wy.wywant ) as "Age Bos" ,
 	gq.gqqyp as "Open Po" ,
-  ifnull ( Pos."Qty. Invoiced" , 0 ) as "Qty. Invoiced" ,
+	ifnull ( Pos."Qty. Invoiced" , 0 ) as "Qty. Invoiced" ,
 	min ( cast ( wy.wywrq as int ) ) as "W. Bo" ,
 	ifnull ( Pos."W. Req" , 0 ) as "W. Req" ,
 	ifnull ( Pos."W. Prom" , 0 ) as "W. Prom" ,
@@ -190,7 +190,7 @@ From rexhzadta.alcowy wy
 SELECT
 	m1.m1stor as "Wh",
 	m2.m2pno as "Pn",
-  SUM ( m2.m2qtin ) as "Qty. Invoiced",
+	SUM ( m2.m2qtin ) as "Qty. Invoiced",
 	MIN ( m2.m2wreq ) as "W. Req",
 	MIN ( case 
 	when m2.m2wpro = 0
@@ -245,7 +245,7 @@ Select
 	sum( g1.g1netw * wy.wyqtd ) as "Weight Bos" ,
 	max( wy.wywant ) as "Age Bos" ,
 	gq.gqqyp as "Open Po" ,
-  ifnull ( Pos."Qty. Invoiced" , 0 ) as "Qty. Invoiced" ,
+	ifnull ( Pos."Qty. Invoiced" , 0 ) as "Qty. Invoiced" ,
 	min ( cast ( wy.wywrq as int ) ) as "W. Bo" ,
 	ifnull ( Pos."W. Req" , 0 ) as "W. Req" ,
 	ifnull ( Pos."W. Prom" , 0 ) as "W. Prom" ,
@@ -260,7 +260,7 @@ From rexkehdta.alcowy wy
 SELECT
 	m1.m1stor as "Wh",
 	m2.m2pno as "Pn",
-  SUM ( m2.m2qtin ) as "Qty. Invoiced",
+	SUM ( m2.m2qtin ) as "Qty. Invoiced",
 	MIN ( m2.m2wreq ) as "W. Req",
 	MIN ( case 
 	when m2.m2wpro = 0
@@ -294,7 +294,7 @@ Group by
 	wy.wyspno, 
 	gq.gqqys - gq.gqqpi, 
 	gq.gqqyp,
-  Pos."Qty. Invoiced",
+	Pos."Qty. Invoiced",
 	Pos."W. Req",
 	Pos."W. Prom",
 	gq.gqqopn
