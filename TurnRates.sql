@@ -1,6 +1,6 @@
 /*
 This query takes the weekly snapshots of Stock On Hand and Rolling Demand 12 Months in Europe, Asia, UK and Africa
-Then, it calculates the turn rates. The granularity: warehouse / buyer code / supplier
+Then, it calculates the turn rates. The granularity: warehouse / buyer code / supplier / ( year - week )
 
 Author: Mauricio Montilla
 */
