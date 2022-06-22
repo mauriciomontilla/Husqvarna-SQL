@@ -16,7 +16,7 @@ SELECT
   , vh.vhadr1 as "Name"
   , vh.vhadr3 AS "Team"
   , w8.w8spno AS "Supplier"
-	, k1.k1ys01 as "Supplier Name"
+  , k1.k1ys01 as "Supplier Name"
   , k6.k6lt1 AS "Transport LT" -- As in G11, third screen
   , IFNULL ( vl.vllnam , 0 ) AS "Country"
   , w8.w8tsv AS "Stock Value"
@@ -48,7 +48,7 @@ SELECT
   , vh.vhadr1 as "Name"
   , vh.vhadr3 AS "Team"
   , w8.w8spno AS "Supplier"
-	, k1.k1ys01 as "Supplier Name"
+  , k1.k1ys01 as "Supplier Name"
   , k6.k6lt1 AS "Transport LT" -- As in G11, third screen
   , IFNULL ( vl.vllnam , 0 ) AS "Country"
   , w8.w8tsv AS "Stock Value"
@@ -80,7 +80,7 @@ SELECT
   , vh.vhadr1 as "Name"
   , vh.vhadr3 AS "Team"
   , w8.w8spno AS "Supplier"
-	, k1.k1ys01 as "Supplier Name"
+  , k1.k1ys01 as "Supplier Name"
   , k6.k6lt1 AS "Transport LT" -- As in G11, third screen
   , IFNULL ( vl.vllnam , 0 ) AS "Country"
   , w8.w8tsv AS "Stock Value"
