@@ -1,5 +1,5 @@
 /*
-This query takes the weekly report of new orders shipped and new order in backlog in Europe, Asia, UK and Africa
+This query takes the weekly report of new orders shipped and new order in backlog in Europe, Asia, the UK and South Africa
 Then, it calculates the Service Level. The granularity: warehouse / buyer code / supplier / ( year - week )
 
 Author: Mauricio Montilla
